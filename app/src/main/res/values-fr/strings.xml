@@ -33,8 +33,8 @@
     <string name="info_send_prio_fees">Plus Prioritaire = Plus de Frais</string>
 
     <string name="info_xmrto_enabled">Paiement BTC activé, tapez pour plus d\'infos.</string>
-
     <string name="info_crazypass_enabled">CrAzYpass activé, tapez pour plus d\'infos.</string>
+    <string name="info_ledger_enabled">Ledger activé, tapez pour plus d\'infos.</string>
 
     <string name="info_xmrto"><![CDATA[
         <b>Vous avez entré une adresse Bitcoin.</b><br/>
@@ -224,12 +224,10 @@
 
     <string name="send_amount_btc_xmr">%1$s (indicatif)</string>
 
-    <string name="send_address_hint">Adresse XMR ou BTC du Destinataire</string>
     <string name="send_paymentid_hint">ID de Paiement (optionnel)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notes Privées (optionnelles)</string>
     <string name="send_generate_paymentid_hint">Générer</string>
-    <string name="send_qr_hint">Scanner</string>
     <string name="send_send_label">Dépenser mes beaux Moneroj</string>
     <string name="send_send_timed_label">Dépenser mes beaux Moneroj (%1$s)</string>
     <string name="send_qr_invalid">QR Code invalide</string>
@@ -318,7 +316,44 @@
     <string name="accounts_new">Nouveau Compte #%1$d ajouté</string>
     <string name="tx_account">Compte #</string>
 
-    <string name="send_sweepall">Send all confirmed funds in this account!</string>
-    <string name="tx_subaddress">Subaddress #%1$d</string>
-    <string name="generate_address_label_sub">Public Subaddress #%1$d</string>
+    <string name="send_sweepall">Envoyer tous les fonds confirmés sur ce compte !</string>
+    <string name="tx_subaddress">Sous-adresse #%1$d</string>
+    <string name="generate_address_label_sub">Sous-adresse publique #%1$d</string>
+
+    <string name="fab_restore_ledger">Restaurer depuis Ledger Nano S</string>
+
+    <string name="progress_ledger_progress">Communication avec Ledger</string>
+    <string name="progress_ledger_confirm">Confirmation requise sur Ledger !</string>
+    <string name="progress_ledger_lookahead">Récupération des sous-adresses</string>
+    <string name="progress_ledger_verify">Vérification des clefs</string>
+    <string name="progress_ledger_opentx">En cours de calculs crazy</string>
+    <string name="progress_ledger_mlsag">Trucs de Hachage</string>
+    <string name="open_wallet_ledger_missing">Merci de (re)connecter le Ledger</string>
+
+    <string name="accounts_progress_new">Création du compte</string>
+    <string name="accounts_progress_update">Mise à jour du portefeuille</string>
+
+    <string name="toast_ledger_attached">%1$s connecté</string>
+    <string name="toast_ledger_detached">%1$s déconnecté</string>
+
+    <string name="progress_nfc_write">Écriture du Tag</string>
+    <string name="nfc_write_failed">Échec de l\'écriture du Tag !</string>
+    <string name="nfc_write_successful">Tag écrit avec succès</string>
+    <string name="nfc_tag_unsupported">le Tag ne supporte pas NDEF !</string>
+    <string name="nfc_tag_size">Le Tag donne %d octets, mais il en faut %d !</string>
+    <string name="nfc_tag_read_undef">Je ne comprend pas le Tag !</string>
+    <string name="nfc_tag_read_what">Je ne sais pas ce que vous voulez !</string>
+    <string name="nfc_tag_read_success">Tag lut avec succès</string>
+    <string name="nfc_tag_tap">NFC Disponible !</string>
+
+    <string name="menu_language">Langue</string>
+    <string name="language_system_default">Utiliser la Langue du Système</string>
+
+    <string name="receive_desc_hint">Description (optionnelle)</string>
+
+    <string name="send_address_not_openalias">Adresse OpenAlias indisponible</string>
+    <string name="send_address_openalias">Sécurisé OpenAlias &#x2714;</string>
+    <string name="send_address_resolve_openalias">Résolution OpenAlias&#8230;</string>
+    <string name="send_address_no_dnssec">OpenAlias sans DNSSEC - l'adresse pourrait être usurpée !</string>
+    <string name="send_address_hint">Adresse ou OpenAlias XMR/BTC du Destinataire</string>
 </resources>
